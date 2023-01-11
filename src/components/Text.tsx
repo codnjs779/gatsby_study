@@ -5,7 +5,7 @@ type TextProps = {
 }
 
 const Text: FunctionComponent<TextProps> = function ({ text }) {
-  return <div>{text}</div>
+  return <div>{text} text</div>
 }
 
 export default Text
